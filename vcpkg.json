@@ -1,0 +1,16 @@
+{
+  "name": "progressmod",
+  "version": "1.0.0",
+  "description": "ProgressMod - A progress tracking mod",
+  "homepage": "https://github.com/username/ProgressMod",
+  "dependencies": [
+    {
+      "name": "qtbase",
+      "features": ["gui", "widgets"]
+    },
+    "pybind11",
+    "python3",
+    "capstone",
+    "libelf"
+  ]
+}
