@@ -1,4 +1,15 @@
-# Contirbute
+# Quick Start
+
+## Prerequisites
+- **Compiler:** Requires C++20 or higher.
+- **Dependencies:**
+    - CMake 3.20+
+    - Qt6 (Core, Gui, Widgets)
+    - Python3 (Interpreter and Development.Embed)
+    - pybind11
+    - capstone
+    - libelf
+
 Source Code File Structure:
 ```bash
 root
@@ -11,7 +22,7 @@ root
     |--engine.cpp         # ProgressMod Engine
     |--modManager.cpp     # Mod Manager
 ```
-How To Build:
+## How To Build
 ```bash
 cmake -B build
 cd build
